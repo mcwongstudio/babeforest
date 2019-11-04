@@ -1,0 +1,22 @@
+.text-content { width: 100%;}
+.text-content textarea {
+  border: none;
+  border-radius: 8px;
+  width: 92%;
+  height: calc(300 / 32 * 1rem);
+  margin-left: 4%;
+  letter-spacing: 1px;
+  line-height: calc(40 / 32 * 1rem);
+  font-size: calc(28 / 32 * 1rem);
+  background-color: #f9f9f9;
+  padding: calc(40 / 32 * 1rem) calc(30 / 32 * 1rem) 0 calc(30 / 32 * 1rem);
+}
+
+.start-content { text-align: center; display: block; }
+.none { display: none; }
+.inline { display: inline; }
+.start1, .start2, .start3, .start4, .start5 { display: inline-block; }
+.start1, .start2, .start3, .start4 { margin-right: calc(50 / 32 * 1rem); }
+.start1 img, .start2 img, .start3 img, .start4 img, .start5 img {
+  width: calc(62 / 32 * 1rem);
+}

@@ -1,0 +1,107 @@
+.logisticsBox {
+  height: calc(180 / 32 *1rem);
+}
+
+.logisticsBox img:nth-child(1) {
+  width: calc(64 / 32 *1rem);
+  height: calc(64 / 32 *1rem);
+  position: relative;
+  top: calc(50 / 32 *1rem);
+  left: 5%;
+}
+
+.logisticsBox p {
+  width: 68%;
+  float: right;
+  position: relative;
+  left: -15%;
+}
+.logisticsBox p:nth-child(2) {
+  font-size: calc(26 /32 * 1rem);
+  line-height: calc(36 /32 * 1rem);
+  color: #b1c7a0;
+}
+.logisticsBox p:nth-child(3) {
+  font-size: calc(24 /32 * 1rem);
+  margin-top: 0;
+  color: #999999;
+}
+.logisticsBox img:nth-child(5) {
+  width: calc(50 / 32 *1rem);
+  height: calc(50 / 32 *1rem);
+  float: right;
+  position: relative;
+  top: calc(-110 / 32 *1rem);
+}
+
+.userBox {
+  height: calc(180 / 32 *1rem);
+}
+
+.userBox img {
+  width: calc(64 / 32 *1rem);
+  height: calc(64 / 32 *1rem);
+  position: relative;
+  top: calc(50 / 32 *1rem);
+  left: 5%;
+}
+.userBox .word {
+  float: right;
+  width: 70%;
+  position: relative;
+  left: -6%;
+  margin-top: calc(25 /32 * 1rem); 
+}
+.userBox .word span:nth-child(1) {
+  font-size: calc(30 /32 * 1rem);
+  letter-spacing: 2px;
+  margin-right: 20px;
+  color: #333333;
+}
+.userBox .word span:nth-child(2) {
+  font-size: calc(20 /32 * 1rem);
+  color: #999999;
+}
+.userBox p {
+  margin-top: calc(16 /32 * 1rem);
+  font-size: calc(28 /32 * 1rem);
+  letter-spacing: 1px;
+  line-height: calc(38 /32 * 1rem);
+  color: #333333;
+}
+
+.productBox img {
+  width: calc(200 / 32 * 1rem);
+  height: calc(200 / 32 * 1rem);
+  position: relative;
+  left: 5%;
+}
+.productBox .word {
+  width: 60%;
+  float: right;
+  margin-right: 5%;
+  position: relative;
+  top: calc(-20 / 32 * 1rem);
+}
+.productBox .word p:nth-child(1) {
+  font-size: calc(26 / 32 * 1rem);
+  line-height: calc(36 / 32 * 1rem);
+  color: #333333;
+}
+.productBox .line2 {
+  font-size: calc(20 / 32 * 1rem);
+  color: #999999;
+}
+
+.productBox .line3 {
+  margin-top: calc(28 / 32 * 1rem);
+  font-size: calc(28 / 32 * 1rem);
+  color: #333333;
+}
+.productBox .line3 span:nth-child(3) {
+  margin-left: 65%; 
+}
+
+.clear {
+  clear: both;
+}

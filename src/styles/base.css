@@ -1,0 +1,59 @@
+@import './vars.css';
+
+html {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  height: 100vh;
+  width: 100%;
+  font-family: "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+input,
+button {
+  outline: none;
+}
+
+input {
+  -webkit-appearance: none;
+}
+
+body {
+  max-width: calc(1920 / 32 * 1rem);
+  margin: 0 auto;
+  /* background-color: #fff; */
+  color: var(--color);
+}
+
+@media screen and (max-width: 20rem) {
+  html {
+    font-size: 0.875rem;
+  }
+}
+
+@media screen and (min-width: 20.05rem) and (max-width: 33.75rem) {
+  html {
+    font-size: 1rem;
+  }
+}
+/* 
+@media screen and (min-width: 33.8rem) and (max-width: 48.5rem) {
+  html {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 48.8rem) {
+  html {
+    font-size: 2rem;
+  }
+} */

@@ -1,0 +1,73 @@
+@import '../../styles/vars.css';
+
+.header-box {
+  display: block;
+  position: relative;
+  width: 100%;
+  max-width: calc(1920 / 32 * 1rem);
+  font-size: calc(36 / 32 * 1rem);
+  z-index: 100;
+  border-bottom: 1px solid var(--border-color);
+}
+
+/* ios: 11 */
+.ios11 {
+  width: 100%;
+  height: 1rem;
+  background: #fff;
+}
+
+.header {
+  position: relative;
+  height: calc(100 / 32 * 1rem);
+  background: #fff;
+  overflow: hidden;
+}
+
+.icon-left {
+  position: absolute;
+  top: calc(24 / 32 * 1rem);
+  left: calc(50 / 32 * 1rem);
+  width: calc(201 / 32 * 1rem);
+  height: calc(48 / 32 * 1rem);
+}
+
+.icon-left img{ display: block; width: 100%; height: auto; }
+
+.control-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: calc(24 / 32 * 1rem);
+  right: calc(50 / 32 * 1rem);
+  width: calc(274 / 32 * 1rem);
+  height: calc(48 / 32 * 1rem);
+}
+
+.stall{ display: block; width: calc(1 / 32 * 1rem); height: calc(40 / 32 * 1rem); background: #333333; }
+.account-logo,
+.shopping-cart-logo,
+.list-logo{ display: block; width: calc(48 / 32 * 1rem); height: calc(48 / 32 * 1rem); }
+.account-logo img,
+.shopping-cart-logo img,
+.list-logo img{ display: block; width: 100%; }
+
+.list-panel{
+  display: block;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  z-index: 9999;
+  padding: 0 calc(50 / 32 * 1rem);
+  width: 100%;
+  height: 0;
+  background: #fff;
+  border-top: calc(1 / 32 * 1rem) solid #e8e8e8;
+  transition: height .1s linear;
+  overflow: hidden;
+}
+.actived{ height: calc(212 / 32 * 1rem); }
+.route-item{ display: block; text-align: center; line-height: calc(70 / 32 * 1rem); border-bottom: calc(1 / 32 * 1rem) solid #e8e8e8; font-size: calc(30 / 32 * 1rem); }
+.panel-shadow{ display: block; position: fixed; top: 0; left: 0; z-index: 999; width: 100%; height: 100%; }
+.shadow-content{ display: block; position: absolute; top: calc((71 * 3 + 32 + 100) / 32 * 1rem); left: 0; width: 100%; height: 100%; background: #00000050; }

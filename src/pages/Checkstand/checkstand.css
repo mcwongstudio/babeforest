@@ -1,0 +1,55 @@
+.checkstand-content{ display: block; background: #F9F9F9; }
+.checkstand-header{ display: block; position: relative; text-align: center; border-bottom: calc(1 / 32 * 1rem) solid #E8E8E8; background: #fff; }
+.back-btn{ display: block; position: absolute; top: calc(50% - (30 / 32 *1rem)); left: calc(50 / 32 * 1rem); width: calc(60 / 32 * 1rem); height: calc(60 / 32 * 1rem); }
+.back-btn img{ display: block; width: 100%; height: 100%; }
+.header-title{ display: block; width: 100%; line-height: calc(89 / 32 * 1rem); color: #333333; font-size: calc(36 / 32 * 1rem); }
+
+.count-bar{ display: block; margin-bottom: calc(20 / 32 * 1rem); padding: 0 calc(62 / 32 * 1rem); text-align: right; line-height: calc(89 / 32 * 1rem); color: #333333; font-size: calc(28 / 32 * 1rem); background: #fff; }
+.count-price{ display: inline-block; position: relative; padding-left: calc(28 / 32 * 1rem); color: #FF2938; }
+.count-price::before{ display: block; content: '￥'; position: absolute; left: 0; }
+
+.payment-list{ display: block; padding-top: calc(25 / 32 * 1rem); background: #fff; }
+.payment-item{ display: flex; justify-content: space-between; align-items: center; padding: calc(25 / 32 * 1rem) calc(50 / 32 * 1rem); }
+.payment-info{ display: flex; justify-content: flex-start; align-items: center; }
+.payment-cover{ display: block; margin-right: calc(30 / 32 * 1rem); width: calc(60 / 32 * 1rem); height: calc(60 / 32 * 1rem); }
+.payment-cover img{ display: block; width: 100%; height: 100%; }
+.payment-name{ display: block; font-size: calc(28 / 32 * 1rem); color: #333333; }
+.payment-check-box{ display: inline-block; margin: 0; width: calc(21 / 32 * 1rem); height: calc(21 / 32 * 1rem); }
+.payment-check-box img{ display: block; width: 100%; height: 100%; }
+
+.submit-btn{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  line-height: calc(100 / 32 * 1rem);
+  background: #B1C7A0;
+  color: #fff;
+  font-size: 1rem;
+}
+.price-bar{ position: relative; }
+
+.return-form{
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #00000050;
+  opacity: 0;
+  transition: opacity .2s;
+}
+.show-return{
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+.return-form form{
+  display: block;
+  position: absolute;
+  left: 25%;
+  width: 50%;
+}

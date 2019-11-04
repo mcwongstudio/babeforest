@@ -1,0 +1,12 @@
+# EditorConfig is awesome: http://EditorConfig.org
+
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
+
+[*.{html,css,js}]
+trim_trailing_whitespace = true
+
+[*.{css,js}]
+insert_final_newline = true

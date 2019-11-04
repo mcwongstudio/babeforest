@@ -1,0 +1,31 @@
+.top {
+  width: calc(196 / 32 * 1rem);
+  height: calc(196 / 32 * 1rem);
+}
+
+.header {
+  margin-top: calc(20 / 32 * 1rem); 
+  width: calc(210 / 32 * 1rem);
+  color: #333333;
+  font-size: calc(17 / 32 * 1rem);
+}
+
+.header div {
+  position: relative;
+  left: calc(-7 / 32 * 1rem);
+  line-height:calc(40 / 32 * 1rem);
+  height:calc(80 / 32 * 1rem);
+  color: #333333;
+  letter-spacing:1px;
+  font-size: calc(17 / 32 * 1rem);
+}
+
+.header p {
+  margin-top: calc(20 / 32 * 1rem); 
+  width: calc(192 / 32 * 1rem);
+  color: #B1C7A0;
+  font-size: calc(17 / 32 * 1rem);
+  position: relative;
+  top: calc(-17 / 32 * 1rem);
+  left: calc(-7 / 32 * 1rem);
+}

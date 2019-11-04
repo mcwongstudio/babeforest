@@ -1,0 +1,4 @@
+.input-bar{ display: block; margin-bottom: calc(10 / 32 * 1rem); padding: 1rem 0; width: 100%; border-bottom: calc(1 / 32 * 1rem) solid #E8E8E8; }
+.input-bar input,
+.input-bar textarea{ display: block; width: 100%; border: 0; outline: 0; }
+.input-bar input::-webkit-input-placeholder{ font-size: calc(30 / 32 * 1rem); color: #999999; }

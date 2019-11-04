@@ -1,0 +1,17 @@
+{
+  "presets": [
+    ["env", {
+      "modules": false,
+      "loose": true
+    }],
+    "react",
+    "stage-0"
+  ],
+  "plugins": [
+    ["import", { libraryName: "antd-mobile", style: "css" }],
+    "transform-runtime",
+    "transform-object-rest-spread",
+    "transform-class-properties",
+    "react-hot-loader/babel",
+  ]
+}

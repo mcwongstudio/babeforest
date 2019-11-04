@@ -1,0 +1,8 @@
+@import '../../styles/vars.css';
+
+.risk-warning {
+  padding: calc(44/32*1rem);
+  text-align: center;
+  font-size: calc(22/32*1rem);
+  color: #404040;
+}

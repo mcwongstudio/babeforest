@@ -1,0 +1,110 @@
+.order-list-page{
+  display: block;
+  background: #F9F9F9;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.order-list-header{ display: block; text-align: center; line-height: calc(100 / 32 * 1rem); background: #fff; font-size: calc(36 / 32 * 1rem); color: #333333; }
+
+.order-list-content{ display: block; margin: 0 auto; width: calc(690 / 32 * 1rem); overflow: hidden; }
+.status-tab-list{ display: flex; justify-content: space-around; align-items: center; margin: calc(20 / 32 * 1rem) auto; width: calc(690 / 32 * 1rem); }
+.status-tab-item{
+  display: block;
+  padding-bottom: calc(19 / 32 * 1rem);
+  border-bottom: calc(4 / 32 * 1rem) solid transparent;
+  font-size: calc(28 / 32 * 1rem);
+  color: #333333;
+}
+.status-actived{ border-color: #B1C7A0; color: #B1C7A0; }
+
+.tab-content{ display: block; margin-bottom: calc(50 / 32 * 1rem); width: 100%; }
+.order-list{
+  display: block;
+  padding-bottom: calc(20 / 32 * 1rem);
+  width: 100%;
+  height: calc(100% - (63 / 32 * 1rem));
+  overflow: hidden;
+}
+.order-item{
+  display: block;
+  margin-bottom: calc(30 / 32 * 1rem);
+  padding: calc(30 / 32 * 1rem) calc(20 / 32 * 1rem) calc(24 / 32 * 1rem);
+  background: #fff;
+  border-radius: calc(4 / 32 * 1rem);
+}
+.order-header{ display: flex; justify-content: space-between; align-items: center; }
+.order-number{ display: block; font-size: calc(28 / 32 * 1rem); color: #333333; }
+.order-status{ display: block; font-size: calc(26 / 32 * 1rem); color: #B1C7A0; }
+.order-content{ display: block; margin-top: calc(65 / 32 * 1rem); }
+.order-inner-item{ display: flex; justify-content: flex-start; align-items: flex-start; }
+.product-cover{ display: block; width: calc(200 / 32 * 1rem); height: calc(200 / 32 * 1rem); border-radius: calc(10 / 32 * 1rem); overflow: hidden; }
+.product-cover img{ display: block; width: 100%; }
+.product-info{ display: block; margin-left: calc(20 / 32 * 1rem); width: calc(290 / 32 * 1rem); }
+.product-name{ display: block; width: 100%; text-align: left; line-height: calc(34 / 32 * 1rem); font-size: calc(24 / 32 * 1rem); color: #333333; }
+.product-specification{
+  display: block;
+  margin-top: calc(10 / 32 * 1rem);
+  text-align: left;
+  line-height: calc(30 / 32 * 1rem);
+  font-size: calc(20 / 32 * 1rem);
+  color: #999999;
+}
+.product-price-info{
+  display: block;
+  position: relative;
+  margin-left: calc(39 / 32 * 1rem);
+  padding-left: calc(20 / 32 * 1rem);
+  width: calc(89 / 32 * 1rem);
+  font-size: calc(24 / 32 * 1rem);
+  color: #333;
+}
+.product-price-info::before{
+  display: block;
+  content: '￥';
+  position: absolute;
+  left: 0;
+}
+.product-price{ display: block; font-size: calc(24 / 32 * 1rem); color: #333333; }
+.product-number{ display: block; text-align: right; line-height: calc(30 / 32 * 1rem); font-size: calc(20 / 32 * 1rem); color: #999999; }
+
+.order-footer{ display: block; margin-top: calc(20 / 32 * 1rem); }
+.order-count-bar{ display: flex; justify-content: flex-end; align-items: flex-end; padding: 0 calc(30 / 32 * 1rem); font-size: calc(24 / 32 * 1rem); }
+.order-count-price{ display: block; position: relative; padding-left: calc(14 / 32 * 1rem); font-size: calc(30 / 32 * 1rem); }
+.order-count-price::before{ display: block; position: absolute; content: '￥'; left: calc(-1 * (14 / 32 * 1rem)); bottom: 0; font-size: calc(24 / 32 * 1rem); }
+
+.control-bar{ display: flex; justify-content: flex-end; align-items: center; margin-top: 1rem; width: 100%; }
+.cancel-order-btn,
+.pay-order-btn,
+.change-address-btn,
+.refund-btn,
+.refund-return-btn,
+.check-logistics-btn,
+.check-logistics-finish-btn{
+  display: block;
+  margin-left: calc(20 / 32 * 1rem);
+  width: calc(154 / 32 * 1rem);
+  text-align: center;
+  line-height: calc(52 / 32 * 1rem);
+  border: calc(1 / 32 * 1rem) solid #E8E8E8;
+  border-radius: calc(27 / 32 * 1rem);
+  color: #333333;
+  font-size: calc(24 / 32 * 1rem);
+}
+.refund-btn{ margin: 0; }
+.pay-order-btn,
+.change-address-btn,
+.evaluate-btn{
+  margin-left: calc(20 / 32 * 1rem);
+  width: calc(154 / 32 * 1rem);
+  text-align: center;
+  line-height: calc(52 / 32 * 1rem);
+  border-radius: calc(27 / 32 * 1rem);
+  border-color: #B1C7A0; 
+  background: #B1C7A0; 
+  font-size: calc(24 / 32 * 1rem);
+  color: #fff; 
+}
+.check-logistics-btn{ margin: 0; color: #B1C7A0; border-color: #B1C7A0; }
+
+.empty-order-list{ display: block; text-align: center; line-height: 2; font-size: calc(30 / 32 * 1rem); color: #999; }

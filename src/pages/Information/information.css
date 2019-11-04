@@ -1,0 +1,21 @@
+.page{
+}
+
+.person-info-page{ display: block; width: 100%; height: 100%; background: #fff; }
+.person-info-header{ display: block; width: 100%; text-align: center; line-height: calc(99 / 32 * 1rem); border-bottom: calc(1 / 32 * 1rem) solid #E8E8E8; }
+.person-info-content{
+  display: block;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+.submit-btn{
+  display: block;
+  margin: calc(100 / 32 * 1rem) auto;
+  width: calc(650 / 32 * 1rem);
+  text-align: center;
+  line-height: calc(90 / 32 * 1rem);
+  background: #B1C7A0;
+  border-radius: calc(10 / 32 * 1rem);
+  font-size: calc(30 / 32 * 1rem);
+  color: #fff;
+}

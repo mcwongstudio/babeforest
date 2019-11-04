@@ -1,0 +1,22 @@
+.input-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: calc(650 / 32 * 1rem);
+  height: calc(100 / 32 * 1rem);
+  border-bottom: calc(1 / 32 * 1rem) solid #E8E8E8;
+}
+.input-label{ display: block; width: calc(120 / 32 * 1rem); font-size: calc(30 / 32 * 1rem); color: #333333; }
+.input-content{ display: block; width: calc(480 / 32 * 1rem); }
+.input-content input{ display: block; width: 100%; text-align: left; border: 0; outline: 0; font-size: calc(30 / 32 * 1rem); color: #333333; }
+.input-content input::-webkit-input-placeholder{ line-height:1.5rem; color: #999999; }
+
+.value-content{ display: block; width: calc(480 / 32 * 1rem); height: calc(100 / 32 * 1rem); line-height: calc(100 / 32 * 1rem); font-size: calc(30 / 32 * 1rem); color: #333333; }
+.area-picker{ display: block; position: fixed; left: 0; bottom: -100%; z-index: 99; width: 100%; transition: bottom .4s; background: #fff; }
+.actived{ bottom: 0; }
+.picker-header{ display: flex; justify-content: space-between; align-items: center; height: calc(90 / 32 * 1rem); background: #e8e8e8; }
+.picker-cancel-btn,
+.picker-ok-btn{ display: block; padding: 0 .5rem; font-size: 1.2rem; }
+.picker-cancel-btn{ color: #ff4d4f; }
+.picker-ok-btn{ color: #1890ff; }

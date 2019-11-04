@@ -1,0 +1,35 @@
+.header {
+  width: 100%;
+  height: calc(98 / 32 * 1rem);
+  background-color: #ffffff;
+  border-bottom: 1px solid #e8e8e8;
+  position: fixed;
+  z-index: 999;
+}
+
+.icon {
+  position: relative;
+  top: calc(13 / 32 * 1rem);
+
+}
+.icon img{
+  width: calc(72 / 32 * 1rem);
+  height: calc(72 / 32 * 1rem);
+  position: relative;
+  left: 5%;
+}
+.icon div {
+  width: 60%;
+  float: right;
+  text-align: center;
+  position: relative;
+  left: -20%;
+  top: calc(13 / 32 * 1rem);
+  letter-spacing: 1px;
+  font-size: calc(38 / 32 * 1rem);
+  color: #333333;
+}
+
+.clear {
+  clear: both;
+}

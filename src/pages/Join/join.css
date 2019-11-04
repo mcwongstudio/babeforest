@@ -1,0 +1,6 @@
+.join-content{ display: block; padding: 0 calc(50 / 32 * 1rem); height: 100%; background: #fff; }
+.close-bar{ display: block; padding-top: calc(38 / 32 * 1rem); height: calc(98 / 32 * 1rem); }
+.close-icon{ display: inline-block; width: calc(60 / 32 * 1rem); height: calc(60 / 32 * 1rem); }
+.close-icon img{ display: block; width: 100%; height: 100%; }
+.join-title{ display: block; padding: calc(50 / 32 * 1rem) 0 calc(43 / 32 * 1rem); text-align: left; color: #333333; font-size: calc(48 / 32 * 1rem); }
+.submit-btn{ display: block; margin-top: calc(166 / 32 * 1rem); width: 100%; text-align: center; line-height: calc(90 / 32 * 1rem); background: #B1C7A0; border-radius: calc(10 / 32 * 1rem); color: #fff; font-size: calc(30 / 32 * 1rem); }

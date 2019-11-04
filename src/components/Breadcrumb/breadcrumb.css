@@ -1,0 +1,4 @@
+.bread-crumb-bar{ display: flex; justify-content: flex-start; align-items: center; padding: 0 calc(50 / 32 * 1rem); height: calc(91 / 32 * 1rem); }
+.bread-crumb-item{ display: inline-block; line-height: calc(30 / 32 * 1rem); font-size: calc(28 / 32 * 1rem); color: #999999; }
+.bread-crumb-arrow{ position: relative; padding-right: calc(30 / 32 * 1rem); }
+.bread-crumb-arrow::after{ display: block; content: ''; width: calc(30 / 32 * 1rem); height: calc(30 / 32 * 1rem); position: absolute; top: 0; left: calc(100% - (30 / 32 * 1rem)); background: url(../../assets/images/arrow.png) center top no-repeat; background-size: 100% 100%; }

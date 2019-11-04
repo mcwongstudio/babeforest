@@ -1,0 +1,228 @@
+@import '../../styles/vars.css';
+
+.flex-center {
+  @apply --flex-center;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.page {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  overflow: hidden;
+}
+
+.main-header {
+  font-size: 1rem;
+  background: transparent;
+  z-index: 5;
+}
+
+.box {
+  position: relative;
+  height: 100%;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.home-content {
+  display: block;
+  width: 100%;
+  background: #f9f9f9;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.Bitmap1 {
+  display: block;
+  margin-bottom: calc(28 / 32 * 1rem);
+  width: 100%;
+}
+
+.Bitmap2 {
+  display: block;
+  margin-bottom: calc(-130 / 32 * 1rem);
+  width: 100%;
+}
+
+.Bitmap1 img,
+.Bitmap2 img{ display: block; width: 100%; }
+/* .Bitmap1 img{ position: relative; left: calc(-1 * (144 / 32 * 1rem)); } */
+
+.white {
+  position: relative;
+  margin: 0 auto;
+  padding: calc(70 / 32 * 1rem) 0 calc(111 / 32 * 1rem);
+  width: 90%;
+  background-color: #ffffff;
+  border-radius: calc(10 / 32 * 1rem);
+}
+
+.writing {
+  display: block;
+  margin: 0 auto;
+  width: calc(200 / 32 * 1rem);
+}
+
+.writing img {
+  width: 100%; 
+}
+
+.white p {
+  text-align: center;
+}
+.word {
+  margin-top: calc(50 / 32 * 1rem);
+}
+
+.word1 p:nth-child(1) {
+  margin: 0;
+  font-size: calc(48 / 32 * 1rem);
+  letter-spacing: 4px;
+  color: #333333;
+}
+.word1 p:nth-child(2) {
+  margin: calc(26 / 32 * 1rem) 0 0;
+  font-size: calc(28 / 32 * 1rem);
+  letter-spacing: 1px;
+  color: #999999;
+}
+
+.word2 {
+  margin-top: calc(53 / 32 * 1rem);
+  line-height: calc(46 / 32 * 1rem);
+}
+
+.word2 p {
+  margin: 0;
+  font-size: calc(28 / 32 * 1rem);
+  letter-spacing: 1px;
+  color: #999999;
+}
+
+.title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: calc(70 / 32 * 1rem) calc(50 / 32 * 1rem) calc(76 / 32 * 1rem);
+  height: calc(210 / 32 * 1rem);
+}
+
+.title p {
+  margin: 0;
+  font-size: calc(56 / 32 * 1rem);
+  color: #333333;
+  /* font-family: "Microsoft YaHei"; */
+}
+.title img {
+  display: block;
+  margin-left: calc(20 / 32 * 1rem);
+  width: calc(48 / 32 * 1rem);
+  height: calc(48 / 32 * 1rem);
+}
+
+.white-background{ background: white; }
+
+
+.joinus{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 calc(50 / 32 * 1rem) calc(70 / 32 * 1rem);
+}
+
+.joinus img {
+  display: block;
+  width: 100%;
+}
+
+.advantage{
+  display: block;
+  padding-bottom: calc(70 / 32 * 1rem);
+}
+
+.joinus2 {
+  position: relative;
+  width: 100%;
+  vertical-align: middle;    
+  text-align: center; 
+}
+
+.joinus2 img:nth-child(1) {
+  display: block;
+  margin: 0 auto;
+  width: calc(650 / 32 * 1rem);
+}
+.joinus2 p:nth-child(2) {
+  position: absolute;
+  top: calc(117 / 32 * 1rem);
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  font-size: calc(48 / 32 * 1rem);
+  color: #ffffff;
+}
+.joinus2 img:nth-child(3) {
+  display: block;
+  position: absolute;
+  left: 48%;
+  bottom: calc(30 / 32 * 1rem);
+  width: calc(48 / 32 * 1rem);
+}
+
+.advantage-text {
+  display: block;
+  margin: 0 auto;
+  padding: calc(30 / 32 * 1rem);
+  width: calc(650 / 32 * 1rem);
+  text-align: justify;
+  line-height: calc(40 / 32 * 1rem);
+  border: calc(1 / 32 * 1rem) solid #E8E8E8;
+  border-bottom-left-radius: calc(10 / 32 * 1rem);
+  border-bottom-right-radius: calc(10 / 32 * 1rem);
+  font-size: calc(27 / 32 * 1rem);
+  color: #999999;
+}
+
+.joins {
+  /* position: relative; */
+  /* top: calc(-200 / 32 * 1rem); */
+}
+
+.join-btn {
+  display: block;
+  margin: 0 auto;
+  width: calc(650 / 32 * 1rem);
+  line-height: calc(90 / 32 * 1rem);
+  background: #B1C7A0;
+  border-radius: calc(10 / 32 * 1rem);
+  font-size: calc(30 / 32 * 1rem);
+  color: #ffffff;
+}
+
+.callus {
+  position: relative;
+}
+
+.map {
+  position: relative;
+  text-align: center
+}
+.map img:nth-child(1) {
+  width: 100%;
+}
+.map img:nth-child(2) {
+  display: block;
+  position: absolute;
+  top: calc(44 / 32 * 1rem);
+  left: calc(324 / 32 * 1rem);
+  width: calc(80 / 32 * 1rem);
+}
+
+.home-footer{ display: block; padding-bottom: calc(187 / 32 * 1rem); background: #fff; }

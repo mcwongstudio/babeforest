@@ -1,0 +1,110 @@
+.coupon-center-page{ display: block; width: 100%; height: 100%; }
+.coupon-center-content{
+  display: block;
+  padding: calc(30 / 32 * 1rem);
+  width: 100%;
+  background: #F5F5F5;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+.coupon-item{
+  margin-bottom: calc(30 / 32 * 1rem);
+  background: #fff;
+  border-radius: calc(10 / 32 * 1rem);
+}
+.coupon-item:last-child{
+  margin-bottom: 0;
+}
+.coupon-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: calc(53 / 32 * 1rem) calc(30 / 32 * 1rem) calc(43 / 32 * 1rem) calc(50 / 32 * 1rem);
+  border-bottom: calc(1 / 32 * 1rem) dashed #E0E0E0;
+}
+.coupon-price-bar{
+  display: block;
+  position: relative;
+  padding-left: 1rem;
+  font-size: calc(70 / 32 * 1rem);
+  color: #FF2938;
+}
+.coupon-price-bar::before{
+  display: block;
+  content: '￥';
+  position: absolute;
+  left: 0;
+  top: 35%;
+  font-size: calc(30 / 32 * 1rem);
+}
+.divide-line{
+  display: block;
+  height: calc(100 / 32 * 1rem);
+  border-right: 1px dashed #E8E8E8;
+}
+
+.coupon-info-bar{
+  display: block;
+  width: calc(250 / 32 * 1rem);
+  text-align: justify;
+}
+.coupon-name{
+  display: block;
+  margin-bottom: calc(12 / 32 * 1rem);
+  font-size: calc(36 / 32 * 1rem);
+  color: #222;
+}
+.coupon-rule{
+  display: block;
+  margin-top: calc(12 / 32 * 1rem);
+  font-size: calc(24 / 32 * 1rem);
+  line-height: calc(34 / 32 * 1rem);
+  color: #999999;
+}
+
+.get-coupon-btn{
+  display: block;
+  width: calc(156 / 32 * 1rem);
+  text-align: center;
+  line-height: calc(54 / 32 * 1rem);
+  background: #B1C7A0;
+  border-radius: calc(28 / 32 * 1rem);
+  font-size: calc(24 / 32 * 1rem);
+  color: #fff;
+}
+.use-coupon-btn{
+  display: block;
+  width: calc(154 / 32 * 1rem);
+  text-align: center;
+  line-height: calc(52 / 32 * 1rem);
+  background: #fff;
+  border-radius: calc(28 / 32 * 1rem);
+  border: calc(1 / 32 * 1rem) solid #B1C7A0;
+  font-size: calc(24 / 32 * 1rem);
+  color: #B1C7A0;
+}
+
+.coupon-bottom{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 calc(37 / 32 * 1rem);
+  width: 100%;
+  height: calc(60 / 32 * 1rem);
+  font-size: calc(24 / 32 * 1rem);
+  color: #999999;
+}
+.coupon-type{
+  display: block;
+  margin-right: calc(10 / 32 * 1rem);
+  text-align: left;
+}
+
+.empty-list{
+  display: block;
+  padding: calc(30 / 32 * 1rem);
+  text-align: center;
+  line-height: 10;
+  font-size: calc(30 / 32 * 1rem);
+  color: #999;
+}

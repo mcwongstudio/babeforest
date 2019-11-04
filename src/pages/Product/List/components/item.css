@@ -1,0 +1,35 @@
+.header-box {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  width: 100%;
+  max-width: calc(1920 / 32 * 1rem);
+  transform: translateX(-50%);
+  font-size: calc(36 / 32 * 1rem);
+  z-index: -1;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.top {
+  background-size: cover;
+  height: calc(340 / 32 * 1rem);
+  background-repeat: no-repeat;
+  filter:brightness(.9);
+}
+
+.top-font p:nth-child(1) {
+  position: relative;
+  top: calc(-250 / 32 * 1rem);
+  text-align: center;
+  color: #fff;
+  font-size: calc(40 / 32 * 1rem);
+  
+}
+.top-font p:nth-child(2) {
+  position: relative;
+  top: calc(-280 / 32 * 1rem);
+  text-align: center;
+  color: #fff;
+  font-size: calc(30 / 32 * 1rem);
+  
+}

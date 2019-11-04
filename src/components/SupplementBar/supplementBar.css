@@ -1,0 +1,12 @@
+.page{
+}
+
+.supplement-bar{ display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; padding: calc(34 / 32 * 1rem) calc(37 / 32 * 1rem) 0; background: #fff; border-bottom: calc(1 / 32 * 1rem) solid #E8E8E8; }
+.show-item{ display: block; margin-bottom: calc(73 / 32 * 1rem); width: 50%; }
+.show-cover{ display: block; margin: 0 auto; }
+.icon-1{ width: calc(67 / 32 * 1rem); }
+.icon-2{ width: calc(60 / 32 * 1rem); }
+.icon-3{ width: calc(67 / 32 * 1rem); }
+.icon-4{ width: calc(68 / 32 * 1rem); }
+.show-cover img{ display: block; margin: 0 auto; width: 100%; }
+.show-title{ display: block; margin-top: calc(20 / 32 * 1rem); text-align: center; font-size: calc(28 / 32 * 1rem); color: #999999; }
